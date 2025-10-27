@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/storage/*.key
+/storage/pail
+/.phpunit.cache
+/tests
+/phpunit.xml
+/.env
+/.env.backup
+/.env.production

@@ -26,3 +26,6 @@ Thumbs.db
 **/caddy
 frankenphp
 frankenphp-worker.php
+
+# Vercel
+.vercel
