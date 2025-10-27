@@ -1,3 +1,32 @@
+# Enforce LF for common text files
+*.js     text eol=lf
+*.ts     text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.html   text eol=lf
+*.php    text eol=lf
+*.vue    text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+
+# Treat images and media as binary (do not attempt to normalize)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.svg    binary
+*.mp4    binary
+*.mov    binary
+*.webm   binary
+*.pdf    binary
+
+# Let Git decide for everything else
+*        text=auto
+
+# If you plan to use Git LFS, add patterns like:
+# *.mov filter=lfs diff=lfs merge=lfs -text
+# (requires `git lfs install` and migrating existing files)
 * text=auto eol=lf
 
 *.blade.php diff=html
